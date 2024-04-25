@@ -1,0 +1,12 @@
+{
+  "interface": "Registry",
+  "outputMappings": {
+    "resolver": ["resolverAddress"],
+    "owner": ["ownerAddress"],
+    "ttl": ["timeToLive"]
+  },
+  "outputDir": "./index.d.ts",
+  "abiDir": "../../src/test/auction.json",
+  "printToConsole": false,
+  "fillInterfaces": true
+}
